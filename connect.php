@@ -1,8 +1,8 @@
 <?php
     $server = "localhost";
     $user = "root";
-    $password = "dell";
-    $db = "project";
+    $password = "0374"; // hapus password jika database tidak memiliki password
+    $db = "php_forum";
 
     $conn = mysqli_connect($server,$user,$password,$db);
     if(!$conn){
